@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 """
-Netcat-like UDP Tool in Python
+Netcat Tool in Python
 This Python script provides a simple and lightweight netcat-like tool that allows users to
 send and receive data over using IPv4 and IPv6 addresses. It is designed to be easy to use
 and versatile, making it suitable for various networking tasks, including testing, debugging,
 and learning purposes.
 By following the netcat command-line style, this script offers users a familiar interface for
-communicating over UDP. When launched with only a port number, the script will listen for incoming
-UDP traffic. When supplied with a target IP address and port, the script will both send and
-receive UDP data.
-Keywords: Python, Netcat, UDP, Networking, IPv4, IPv6, Socket Programming, Command Line Tool,
+communicating over. When launched with only a port number, the script will listen for incoming
+traffic. When supplied with a target IP address and port, the script will both send and
+receive data.
+Keywords: Python, Netcat, UDP, TCP, Networking, IPv4, IPv6, Socket Programming, Command Line Tool,
           Lightweight, Versatile, Testing, Debugging, Learning
 To use this script, run the following commands:
 1. For receiving data only:

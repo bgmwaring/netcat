@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
-Netcat Tool in Python
-This Python script provides a simple and lightweight netcat-like tool that allows users to
+NetcatP Tool in Python
+This Python script provides a simple and lightweight netcat dupe that allows users to
 send and receive data over using IPv4 and IPv6 addresses. It is designed to be easy to use
 and versatile, making it suitable for various networking tasks, including testing, debugging,
 and learning purposes.
-By following the netcat command-line style, this script offers users a familiar interface for
+By keeping a simplistic command-line style, this script offers users an intuative interface for
 communicating over. When launched with only a port number, the script will listen for incoming
 traffic. When supplied with a target IP address and port, the script will both send and
 receive data.
@@ -13,9 +13,9 @@ Keywords: Python, Netcat, UDP, TCP, Networking, IPv4, IPv6, Socket Programming, 
           Lightweight, Versatile, Testing, Debugging, Learning
 To use this script, run the following commands:
 1. For receiving data only:
-   python netcat_udp.py <port> <protocol>
+   python netcatp.py <port> <protocol>
 2. For sending and receiving data:
-   python netcat_udp.py <port> <target_host> <target_port> <protocol>
+   python netcatp.py <port> <target_host> <target_port> <protocol>
 Replace <port> with the desired local port number, <target_host> with the target IPv4 or IPv6
 address, and <target_port> with the target port number. Replace <protocol> with 0 for UDP or 1
 for TCP, this argument is not required with UDP being default.

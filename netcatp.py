@@ -56,10 +56,10 @@ def protocol(proto, argc):
     Other values include:
     1=TCP
     """
-    proto_map = (17, 6)
+    proto_map = (socket.IPPROTO_UDP, socket.IPPROTO_TCP)
 
     if argc == 2 or argc ==4:
-        sproto = 17
+        sproto = socket.IPPROTO_UDP
     else:
         sproto = proto_map[proto]
 
